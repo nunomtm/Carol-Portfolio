@@ -1,4 +1,4 @@
-<img src="/screenShotCarolPortfolio.png"
+<img src="/screenShotCarolPortfolio.png">
 
 
 ## Carol's Portfolio
