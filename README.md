@@ -1,4 +1,4 @@
-<img src="./assets/screenShotCarolPortfolio.png"
+<img src="/screenShotCarolPortfolio.png"
 
 
 ## Carol's Portfolio
@@ -13,5 +13,5 @@ Freelance work building a UX designer portfolio website.
 
 
 ### Authors
-Nuno Macedo - [nunomtm](https://github.com/nunomtm)</br>
+Nuno Macedo - [Portfolio](nunomacedo.com)</br>
 Design and Art by [Ana Macedo](http://creartivedsgn.com/)</br>
