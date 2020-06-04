@@ -1,0 +1,20 @@
+// Colors
+$primaryColor: #e40b0b;
+$secondaryColor: #000;
+
+// // Background Color
+$baseBackgroundColor: #161616;
+
+// // Fonts Color
+$primaryFontColor: #fff;
+
+// Font Family
+$primaryFont: 'Open Sans', sans-serif;
+$secondaryFont: 'Aleo', serif;
+
+// Fonts
+// Local Font
+@font-face {
+	font-family: "Dense";
+	src: url(../font/Dense.otf) format("truetype");
+}

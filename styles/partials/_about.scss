@@ -1,0 +1,75 @@
+.about {
+    position: relative;
+    min-height: 94vh;
+    .title {
+        font-size: 6rem;
+        font-family: $secondaryFont;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 80px;
+        .accent {
+            font-size: 5.5rem;
+            color: $primaryColor;
+        }
+    }
+    .arrowUp {
+        position: fixed;
+        right: 20px;
+        bottom: 30px;
+        display: none;
+        z-index: 2;
+        background: $primaryFontColor;
+        border: 2px solid $primaryColor;
+        border-radius: 3px;
+        padding: 3px;
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: $primaryColor;
+        }
+        a:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        i {
+            font-size: 3.5rem;
+            color: $primaryColor;
+            margin-top: -3px;
+            margin-bottom: -20px;
+        }
+    }
+    .wrapper {
+        display: flex;
+        align-items: center;
+        width: calc(100 / 2) - 20px;
+        margin-top: 20px;
+        .photo { 
+            max-width: 45%;
+            margin: 0;
+        }
+        .aboutMe {
+            position: relative;
+            max-width: 50%;
+            p {
+                font-size: 2.5rem;
+                line-height: 1.5;
+                color: $secondaryColor;
+                background: $primaryFontColor;
+                margin-left: 10px;
+                padding: 5px 0;
+            }
+        }
+        .border {
+            position: absolute;
+            border: 6px solid $primaryColor;
+            border-radius: 3px;
+            height: 45%;
+            width: 25%;
+            top: 27%;
+            right: 18%;
+            z-index: -1;
+        }
+    }
+}

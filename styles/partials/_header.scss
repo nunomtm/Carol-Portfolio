@@ -1,0 +1,100 @@
+/* Header Styles Start Here */
+header {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: inherit;
+	background-attachment: fixed;
+
+	/* Nav Styles Start Here */
+	.navContainer {
+		background-color: rgba(0, 0, 0, 0.9);
+		position: fixed;
+		width: 100%;
+		// transition: 0.5s;
+		// z-index: 3;
+		.brandLogo {
+			img {
+				width: 35px;
+				height: 35px;
+			}
+		}
+		.nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			min-height: 5vh;
+			.navLinks {
+				display: flex;
+				justify-content: space-between;
+				list-style: none;
+				width: 50%;
+				li {
+					a {
+						--fill-color: #fff;
+						position: relative;
+						display: block;
+						font-size: 1.8rem;
+						font-weight: 700;
+						font-family: 'Raleway', sans-serif;
+						text-decoration: none;
+						text-transform: uppercase;
+						letter-spacing: 1.5px;
+						-webkit-text-stroke: 0.8px var(--fill-color);
+						background: linear-gradient(var(--fill-color) 0 100%) top / 0 no-repeat;
+						-webkit-text-fill-color: transparent;
+						color: transparent;
+						-webkit-background-clip: text;
+						background-clip: text;
+						transition: 0.5s linear;
+						&:hover {
+							background-size: 100%;
+						}
+					}
+				}
+			}
+			.burger {
+				display: none;
+				cursor: pointer;
+				div {
+					width: 25px;
+					height: 3px;
+					background: $primaryFontColor;
+					margin: 5px;
+					transition: all 0.4s ease;
+				}
+			}
+		}
+	}
+
+	/* Hero Container Styles Start Here */
+	.heroContainer {
+		min-height: 95vh;
+		background-color: rgba(0, 0, 0, 0.5);
+
+		/* Hero Section */
+		.hero {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			grid-template-rows: repeat(2, min-content);
+			grid-template-areas: "logo" "headline";
+			padding-top: 300px;
+			.logo {
+				grid-area: logo;
+				width: 600px;
+				margin: 0 auto;
+			}
+			.headline {
+				grid-area: headline;
+				font-family: "Dense";
+				font-size: 8rem;
+				letter-spacing: 2px;
+				text-align: center;
+				color: $primaryFontColor;
+				margin: 0 auto;
+				margin-top: 100px;
+			}
+		}
+	}
+	/* Hero Container Styles Ends Here */
+}
+/* Header Styles Ends Here */
