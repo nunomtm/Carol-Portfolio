@@ -1,0 +1,166 @@
+/* Responsive Starts Here */
+@include mq4K {
+	header {
+		background-image: url(/assets/); // Photo by Matthew Henry on Unsplash
+	}
+}
+
+@include mqFullHD {
+	header {
+		background-image: url(/assets/HeroBackgroundFullHD.jpg); // Photo by Matthew Henry on Unsplash
+	}
+	#quick {
+		background-image: url(/assets/QuickBackgroundFullHD.png);
+	}
+}
+
+@include mqLaptopHD {
+	header {
+		background-image: url(/assets/HeroBackgroundHD.jpg); // Photo by Matthew Henry on Unsplash
+		.navContainer {
+			.nav {
+				.logo {
+					img {
+						width: 90px;
+						height: 35px;
+					}
+				}
+			}
+		}
+		.heroContainer {
+			background-position: 50% 35%;
+		}
+	}
+	.emerg {
+		.emergImage {
+			.tablet {
+				top: 180px;
+				left: 180px;
+				width: 55%;
+			}
+			.mobile {
+				top: 410px;
+				left: 735px;
+				width: 25%;
+			}
+		}
+		.title {
+			font-size: 13rem;
+			top: 140px;
+			right: 85px;
+		}
+	}
+	.adega {
+		background-position: -460px;
+		.title {
+			font-size: 13rem;
+			left: -420px;
+			top: 15px;
+		}
+	}
+	#quick {
+		background-image: url(/assets/QuickBackgroundHD.png);
+	}
+	.about {
+		.aboutContainer {
+			.aboutImage {
+				width: 70%;
+			}
+		}
+	}
+	.contact {
+		.contactContainer {
+			.contactDetails ul {
+				top: 200px;
+			}
+		}
+	}
+}
+
+// @include mqTabletLand {
+	
+
+// }
+
+// @include mqTabletVert {
+// 	header {
+// 		.navContainer {
+// 			.nav {
+// 				.navLinks {
+// 					position: absolute;
+// 					top: 5vh;
+// 					right: 0;
+// 					display: flex;
+// 					flex-direction: column;
+// 					justify-content: center;
+// 					align-items: center;
+// 					height: 94vh;
+// 					width: 50%;
+// 					background-color: rgba(#fff, 0.85);
+// 					transform: translateX(100%);
+// 					transition: transform 0.5s ease-in;
+// 					z-index: 2;
+// 					li {
+// 						padding: 60px 0;
+// 						opacity: 0;
+// 					}
+// 					a {
+// 						font-weight: bold;
+// 					}
+// 				}
+// 				.burger {
+// 					display: block;
+// 				}
+// 				.navActive {
+// 					transform: translateX(0%);
+// 				}
+// 			}
+// 		}
+// 		// Burger Toggle Animation
+// 		.toggle {
+// 			.line1 {
+// 				transform: rotate(-45deg) translate(-5px, 6px);
+// 			}
+// 			.line2 {
+// 				opacity: 0;
+// 			}
+// 			.line3 {
+// 				transform: rotate(45deg) translate(-5px, -6px);
+// 			}
+// 		}
+// 		// Burger Animation
+// 		@keyframes navLinkFade {
+// 			from {
+// 				opacity: 0;
+// 				transform: translateX(50px);
+// 			}
+// 			to {
+// 				opacity: 1;
+// 				transform: translateX(0px);
+// 			}
+// 		}
+// 		.heroContainer {
+// 			// .social {
+// 			// 	display: none;
+// 			// }
+// 			.hero {
+// 				padding-top: 310px;
+// 				.name {
+// 					font-size: 4.5rem;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+// @include mqMobile {
+	
+// }
+
+// @include mqMobilePlus {
+	
+// }
+
+// @include mqMobileSE {
+	
+// }

@@ -1,0 +1,50 @@
+/* Global Styles Start Here */
+html {
+	font-size: 65.2%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $primaryFont;
+}
+
+.wrapper {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+	margin: 0;
+	padding: 0;
+}
+/* Global Styles Ends Here */
+
+/* Skip-line for accessibility */
+.skipLink {
+	position: absolute;
+	left: -1000px;
+	top: 5px;
+	z-index: 999;
+	background: $primaryFontColor;
+	color: $primaryFontColor;
+}
+
+.skipLink:focus {
+	left: 0;
+}
+/* - */

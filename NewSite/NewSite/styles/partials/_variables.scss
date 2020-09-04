@@ -1,0 +1,36 @@
+
+// Background Colour
+$bgColor: #666565;
+
+// Fonts Color
+$primaryFontColor: #fff;
+
+// Overlay Colour
+$primaryOverlay: rgba(82, 82, 82, 0.8);
+
+// Font Family
+$primaryFont: 'Cooper-Regular', sans-serif;
+$secondaryFont: 'Cooper-SemiBold', sans-serif;
+$tertiaryFont: 'Anders', sans-serif;
+
+// Fonts
+// Local Font
+@font-face {
+	font-family: 'Cooper-Book';
+	src: url(/fonts/CooperHewitt-BookItalic.otf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Cooper-Regular';
+	src: url(/fonts/CooperHewitt-Medium.otf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Cooper-SemiBold';
+	src: url(/fonts/CooperHewitt-Semibold.otf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Anders';
+	src: url(/fonts/Anders.ttf) format("truetype");
+}

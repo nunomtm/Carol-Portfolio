@@ -1,0 +1,48 @@
+.about {
+    background-color: $bgColor;
+    min-height: 91vh;
+    padding-top: 40px;
+    .aboutContainer {
+        display: flex;
+        .aboutContent {
+            margin-top: 40px;
+            .values {
+                font-size: 3rem;
+                color: $primaryFontColor;
+                width: 400px;
+                padding-left: 30px;
+                border-bottom: 5px solid $primaryFontColor;
+            }
+        }
+        .aboutMe {
+            padding-top: 20px;
+            padding-left: 30px;
+            width: 95%;
+            .bold {
+                font-size: 1.8rem;
+                font-family: $secondaryFont;
+                letter-spacing: 1px;
+                color: $primaryFontColor;
+                line-height: 2;
+                padding: 10px 0;
+            }
+            .normal {
+                font-size: 1.5rem;
+                font-family: 'Cooper-Book';
+                color: $primaryFontColor;
+                line-height: 2;
+            }
+        }
+        .signature {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .aboutImage {
+            padding-top: 40px;
+            width: 80%;
+            img {
+                border: 15px solid #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.quick{
+    background-image: url(/assets/QuickBackgroundHD.png);
+    background-position-y: -130px;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    overflow: hidden;
+    .quickContainer {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        .title {
+            font-family: $tertiaryFont;
+            font-size: 15rem;
+            font-weight: bold;
+            color: $primaryFontColor;
+            text-align: end;
+            z-index: 1;
+        }
+        p {
+            font-size: 7rem;
+            color: $primaryFontColor;
+            text-align: end;
+        }
+    }
+}

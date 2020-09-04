@@ -1,0 +1,64 @@
+.emerg {
+	position: relative;
+	background: rgb(45,45,45);
+	background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(128,128,128,1) 50%, rgba(45,45,45,1) 100%);
+	min-height: 100vh;
+	padding-top: 40px;
+	.emergContainer {
+		display: flex;
+		margin-top: 40px;
+		.emergContent {
+			color: $primaryFontColor;
+			width: 400px;
+			padding-left: 30px;
+			border-bottom: 5px solid $primaryFontColor;
+			.project {
+				font-size: 3rem;
+			}
+			p {
+				font-size: 2.1rem;
+				line-height: 1.5;
+			}
+		}
+		.emergPlus {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 15px;
+			padding-right: 15px;
+			border-bottom: 5px solid $primaryFontColor;
+			cursor: pointer;
+			a {
+				img {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
+	.emergImage {
+		.tablet {
+			position: absolute;
+			top: 180px;
+			left: 320px;
+			width: 50%;
+		}
+		.mobile {
+			position: absolute;
+			top: 420px;
+			left: 980px;
+			width: 25%;
+		}
+	}
+	.title {
+		font-family: $tertiaryFont;
+		font-size: 15rem;
+		font-weight: 300;
+		color: $primaryFontColor;
+		writing-mode: vertical-rl;
+		position: absolute;
+		bottom: -30px;
+		right: 320px;
+		// opacity: 0;
+	}
+}

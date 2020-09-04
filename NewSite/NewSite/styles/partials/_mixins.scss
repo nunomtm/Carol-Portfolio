@@ -1,0 +1,53 @@
+@mixin mq4K {
+    @media (max-width: 3840px) {
+        @content;
+    }
+}
+
+@mixin mqFullHD {
+    @media (max-width: 1920px) {
+        @content;
+    }
+}
+
+@mixin mqLaptopHD {
+    @media (max-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin mqTabletLand {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin mqTabletVert {
+    @media (max-width: 850px) {
+        @content;
+    }
+}
+
+@mixin mqMobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin mqMobilePlus {
+    @media (max-width: 415px) {
+        @content;
+    }
+}
+
+@mixin mqMobileX {
+    @media (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin mqMobileSE {
+    @media (max-width: 320px) {
+        @content;
+    }
+}
